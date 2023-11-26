@@ -1,5 +1,6 @@
 :root {
-    color: black;
+    --first-color-text:#000;
+    --second-color-text: #4D5AE5;;
 }
 
 body {
@@ -9,23 +10,97 @@ body {
 }
 
 header {
+    color:#2E2F42;;
     background-color: white ;
+    font-family:'Raleway', sans-serif;
 }
-
-a {
-    text-decoration: none;
-}
-
-a:hover, button:hover
 
 .logo {
     font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 800;
+    color:#4D5AE5;
+}
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+    
+.studio-header {
+    color:#2E2F42;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+
 }
 
-.logo .highlight {
-    color: var(#333);
+.list {
+    color:#2E2F42;
+    background-color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
 
+
+.list-item-nav {
+    color:#2E2F42;
+    text-decoration: none;
+}
+
+.contact-mail {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #2E2F42;
+    background-color: white;
+}
+ .contact-phone {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #2E2F42;
+    background-color: white;
+ }
+
+.list-button {
+    color: #4D5AE5;
+    font-weight: 500;
+}
+
+.btn-all {
+    color:#FFFFFF;
+    background-color:#404BBF;
+    border: 1px solid #E7E9FC
+}
+
+.btn {
+    color:#4D5AE5;
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC
+}
+
+.images {
+    border: 1px solid #E7E9FC
+}
+
+.header-list {
+    color:#2E2F42;;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.image-text {
+    color:#434455;;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.studio-header-footer {
+    color:#F4F4FD;
+}
+.page-footer {
+    color:white;
+    background-color:#2E2F42;
 }
