@@ -1,0 +1,31 @@
+:root {
+    color: black;
+}
+
+body {
+    font-family: 'Roboto' sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: white ;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, button:hover
+
+.logo {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.logo .highlight {
+    color: var(#333);
+
+}
