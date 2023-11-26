@@ -1,16 +1,22 @@
 :root {
     --first-color-text:#000;
-    --second-color-text: #4D5AE5;;
-}
+    --second-color-text: #4D5AE5;
+    --color-text:#333;
+    --color-heading:#2E2F42;
+    --color-text: white;
+    --color-background: #404BBF;
+    --border-color: #E7E9FC;
+    --color-back: #F4F4FD;
+    }
 
 body {
     font-family: 'Roboto' sans-serif;
-    color: #333;
+    color: var(--color-text);
     line-height: 1.6;
 }
 
 header {
-    color:#2E2F42;;
+    color: var(--color-heading);
     background-color: white ;
     font-family:'Raleway', sans-serif;
 }
@@ -20,15 +26,15 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 800;
-    color:#4D5AE5;
+    color:var(--second-color-text);
 }
 .link {
     text-decoration: none;
     text-transform: uppercase;
 }
-    
+   
 .studio-header {
-    color:#2E2F42;
+    color: var(--color-heading);
     font-size: 16px;
     font-weight: 800;
     text-decoration: none;
@@ -37,7 +43,7 @@ header {
 }
 
 .list {
-    color:#2E2F42;
+    color:var(--color-heading);
     background-color: white;
     text-decoration: none;
     text-transform: capitalize;
@@ -45,62 +51,59 @@ header {
 
 
 .list-item-nav {
-    color:#2E2F42;
+    color:var(--color-heading);
     text-decoration: none;
 }
 
-.contact-mail {
+.contact {
     text-decoration: none;
     text-transform: lowercase;
-    color: #2E2F42;
+    color: var(--color-heading);
     background-color: white;
 }
- .contact-phone {
-    text-decoration: none;
-    text-transform: lowercase;
-    color: #2E2F42;
-    background-color: white;
- }
 
+.contact:hover, .contact:focus
+ {    background-color: var(--color-background);
+}
 .list-button {
-    color: #4D5AE5;
+    color: var(--second-color-text);
     font-weight: 500;
 }
 
 .btn-all {
-    color:#FFFFFF;
-    background-color:#404BBF;
-    border: 1px solid #E7E9FC
+    color: white;
+    background-color: var(--color-background);
+    border: 1px solid var(--border-color)
 }
 
 .btn {
-    color:#4D5AE5;
-    background-color: #F4F4FD;
-    border: 1px solid #E7E9FC
+    color: var(--second-color-text);
+    background-color: var(--color-back);
+    border: 1px solid var(--border-color)
 }
 
 .images {
-    border: 1px solid #E7E9FC
+    border: 1px solid var(--border-color)
 }
 
 .header-list {
-    color:#2E2F42;;
+    color: var(--color-heading);
     text-decoration: none;
     text-transform: capitalize;
     font-weight: 500;
 }
 
 .image-text {
-    color:#434455;;
+    color:#434455;
     text-decoration: none;
     text-transform: capitalize;
     font-weight: 400;
 }
 
 .studio-header-footer {
-    color:#F4F4FD;
+    color: var(--color-back);
 }
 .page-footer {
     color:white;
-    background-color:#2E2F42;
+    background-color: var(--color-heading);
 }
